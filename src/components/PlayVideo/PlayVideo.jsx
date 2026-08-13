@@ -1,5 +1,6 @@
-import React from "react";
 import "./PlayVideo.css";
+import { useState, useEffect } from "react";
+import { API_KEY } from "../../data";
 import video1 from "../../assets/video.mp4";
 import like from "../../assets/like.png";
 import dislike from "../../assets/dislike.png";
@@ -8,10 +9,36 @@ import save from "../../assets/save.png";
 import jack from "../../assets/jack.png";
 import user_profile from "../../assets/user_profile.jpg";
 
-function PlayVideo() {
+function PlayVideo({ videoId }) {
+  const [apiData, setAPIData] = useState(null);
+
+  async function fetchVideoData() {
+    const videoDetails_url = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=${videoId}=${API_KEY}`;
+    console.log(videoDetails_url);
+    await fetch(videoDetails_url)
+      .then((response) => response.json())
+      .then((data) => setAPIData(data.items[0]));
+  }
+
+  console.log(apiData);
+
+  useEffect(() => {
+    fetchVideoData();
+  }, []);
+
   return (
     <div className="play-video">
-      <video src={video1} controls autoPlay muted></video>
+      {/* <video src={video1} controls autoPlay muted></video> */}
+      <iframe
+        width="687"
+        height="395"
+        src={`https://www.youtube.com/embed/${videoId}?autoplay=1`}
+        title="title"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
       <h3>Best YouTube Channel to Learn Web Development</h3>
       <div className="play-video-info">
         <p>1525 Views &bull; 2 days ago</p>

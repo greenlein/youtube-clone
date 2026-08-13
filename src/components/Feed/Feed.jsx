@@ -24,7 +24,7 @@ function Feed({ category }) {
       .then((data) => setData(data.items));
   }
 
-  https: useEffect(() => {
+  useEffect(() => {
     fetchData();
   }, [category]);
 
@@ -41,7 +41,7 @@ function Feed({ category }) {
             <h2>{item.snippet.title}</h2>
             <h3>{item.snippet.channelTitle}</h3>
             <pre>
-              {convertValue(item.statistics.viewCount)} Views &bull;{" "}
+              {convertValue(item.statistics.viewCount)} Views &bull;&nbsp;
               {moment(item.snippet.publishedAt).fromNow()}
             </pre>
           </Link>

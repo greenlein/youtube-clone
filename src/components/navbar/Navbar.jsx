@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 import menuIcon from "../../assets/menu.png";
 import logo from "../../assets/logo.png";
 import searchIcon from "../../assets/search.png";
@@ -18,7 +19,9 @@ function Navbar({ setSidebar }) {
           alt=""
           onClick={() => setSidebar((prev) => (prev === false ? true : false))}
         />
-        <img src={logo} className="logo" alt="" />
+        <Link to="/">
+          <img src={logo} className="logo" alt="" />
+        </Link>
       </div>
       <div className="nav-middle flex-div">
         <div className="search-box flex-div">
