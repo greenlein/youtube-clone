@@ -16,6 +16,12 @@ img {
   cursor: pointer;
 }
 
+*[data-disabled] {
+  cursor: not-allowed;
+}
+
+
+
 .flex-div {
   display: flex;
   align-items: center;

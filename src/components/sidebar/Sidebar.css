@@ -43,11 +43,36 @@
 
 .small-sidebar {
   width: 5%;
+  transition: all 300ms ease;
+
+}
+
+.sidebar p,
+.sidebar h3 {
+  display: block;
+  opacity: 1;
+  transform: scale(1);
+  transition:
+    opacity 0.4s ease,
+    transform 0.4s ease,
+    display 0.4s ease;
+
+  transition-behavior: allow-discrete;
+}
+
+@starting-style {
+  .sidebar p,
+  .sidebar h3 {
+    opacity: 0;
+    transform: scale(0.9);
+  }
 }
 
 .small-sidebar p,
 .small-sidebar h3 {
   display: none;
+  opacity: 0;
+  transform: scale(0.9);
 }
 
 .small-sidebar hr {
@@ -58,4 +83,10 @@
 .side-link.active img {
   padding-bottom: 2px;
   border-bottom: 3px solid red;
+}
+
+@media (max-width: 900px) {
+  .sidebar {
+    display: none;
+  }
 }

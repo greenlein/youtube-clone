@@ -30,10 +30,10 @@ function Navbar({ setSidebar }) {
         </div>
       </div>
       <div className="nav-right flex-div">
-        <img src={uploadIcon} alt="" />
-        <img src={moreIcon} alt="" />
-        <img src={notificationIcon} alt="" />
-        <img src={profileIcon} className="user-icon" alt="" />
+        <img src={uploadIcon} alt="" data-disabled />
+        <img src={moreIcon} alt="" data-disabled />
+        <img src={notificationIcon} alt="" data-disabled />
+        <img src={profileIcon} className="user-icon" alt="" data-disabled />
       </div>
     </nav>
   );

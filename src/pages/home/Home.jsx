@@ -14,7 +14,7 @@ function Home({ sidebar }) {
         category={category}
         setCategory={setCategory}
       />
-      <div className={`container ${sidebar ? "" : "large-container"}`}>
+      <div className={`container container-animation ${sidebar ? "" : "large-container"}`}>
         <Feed category={category} />
       </div>
     </div>

@@ -9,9 +9,13 @@ import share from "../../assets/share.png";
 import save from "../../assets/save.png";
 import jack from "../../assets/jack.png";
 import user_profile from "../../assets/user_profile.jpg";
+import { useParams } from "react-router-dom";
 
-function PlayVideo({ videoId }) {
+function PlayVideo() {
+  const { videoId } = useParams();
   const [apiData, setAPIData] = useState(null);
+  const [channelData, setChannelData] = useState(null);
+  const [commentData, setCommentData] = useState(null);
 
   async function fetchVideoData() {
     const videoDetails_url = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=${videoId}&key=${API_KEY}`;
@@ -20,14 +24,30 @@ function PlayVideo({ videoId }) {
       .then((data) => setAPIData(data.items[0]));
   }
 
+  async function fetchOtherData() {
+    const channelData_url = `https://youtube.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&id=${apiData.snippet.channelId}&key=${API_KEY}`;
+    await fetch(channelData_url)
+      .then((response) => response.json())
+      .then((data) => setChannelData(data.items[0]));
+
+    const comment_url = `https://youtube.googleapis.com/youtube/v3/commentThreads?part=snippet%2Creplies&videoId=${videoId}&key=${API_KEY}`;
+    await fetch(comment_url)
+      .then((response) => response.json())
+      .then((data) => setCommentData(data.items));
+  }
+
   useEffect(() => {
     fetchVideoData();
-  }, []);
+  }, [videoId]);
 
-  // console.log(apiData.snippet);
+  useEffect(() => {
+    if (apiData) {
+      fetchOtherData();
+    }
+  }, [apiData]);
+
   return (
     <div className="play-video">
-      {/* <video src={video1} controls autoPlay muted></video> */}
       <iframe
         width="687"
         height="395"
@@ -71,12 +91,24 @@ function PlayVideo({ videoId }) {
       </div>
       <hr />
       <div className="publisher">
-        <img src={jack} alt="" />
+        <img
+          src={
+            channelData
+              ? channelData.snippet.thumbnails.default.url
+              : "Loading Channel Data"
+          }
+          alt=""
+        />
         <div>
           <p>
             {apiData ? apiData.snippet.channelTitle : "Channel Title Loading"}
           </p>
-          <span>1M Subscibers</span>
+          <span>
+            {channelData
+              ? convertValue(channelData.statistics.subscriberCount)
+              : "Loading"}{" "}
+            Subscibers
+          </span>
         </div>
         <button>Subscribe</button>
       </div>
@@ -93,44 +125,35 @@ function PlayVideo({ videoId }) {
             : "Loading Comment Count"}{" "}
           Comments
         </h4>
-        <div className="comment">
-          <img src={user_profile} alt="" />
-          <div>
-            <h3>
-              Jack Nicholson <span>1 day ago</span>
-            </h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-              debitis dolorem facere quo! Repellendus placeat nostrum quaerat
-              deserunt quae expedita, laudantium error laborum praesentium
-              provident quo quidem! Quasi, quia molestias.
-            </p>
-            <div className="comment-action">
-              <img src={like} alt="" />
-              <span>244</span>
-              <img src={dislike} alt="" />
-            </div>
-          </div>
-        </div>
-        <div className="comment">
-          <img src={user_profile} alt="" />
-          <div>
-            <h3>
-              Jack Nicholson <span>1 day ago</span>
-            </h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-              debitis dolorem facere quo! Repellendus placeat nostrum quaerat
-              deserunt quae expedita, laudantium error laborum praesentium
-              provident quo quidem! Quasi, quia molestias.
-            </p>
-            <div className="comment-action">
-              <img src={like} alt="" />
-              <span>244</span>
-              <img src={dislike} alt="" />
-            </div>
-          </div>
-        </div>
+        {commentData &&
+          commentData.map((item, index) => {
+            return (
+              <div key={index} className="comment">
+                <img
+                  src={
+                    item.snippet.topLevelComment.snippet.authorProfileImageUrl
+                  }
+                  alt=""
+                />
+                <div>
+                  <h3>
+                    {item.snippet.topLevelComment.snippet.authorDisplayName}{" "}
+                    <span>1 day ago</span>
+                  </h3>
+                  <p>{item.snippet.topLevelComment.snippet.textDisplay}</p>
+                  <div className="comment-action">
+                    <img src={like} alt="" />
+                    <span>
+                      {convertValue(
+                        item.snippet.topLevelComment.snippet.likeCount,
+                      )}
+                    </span>
+                    <img src={dislike} alt="" />
+                  </div>
+                </div>
+              </div>
+            );
+          })}
       </div>
     </div>
   );
