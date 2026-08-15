@@ -26,7 +26,6 @@ function Recommended({ videoId, categoryId }) {
     fetchData();
   }, []);
 
-  console.log(apiData);
   return (
     <div className="recommended">
       {apiData &&

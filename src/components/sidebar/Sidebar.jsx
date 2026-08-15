@@ -23,63 +23,63 @@ function Sidebar({ sidebar, category, setCategory }) {
           className={`side-link ${category === 0 ? "active" : ""}`}
           onClick={() => setCategory(0)}
         >
-          <img src={home} alt="" />
+          <span className='category-img'><img src={home} alt="" /></span>
           <p>Home</p>
         </div>
         <div
           className={`side-link ${category === 20 ? "active" : ""}`}
           onClick={() => setCategory(20)}
         >
-          <img src={gameIcon} alt="" />
+          <span className='category-img'><img src={gameIcon} alt="" /></span>
           <p>Gaming</p>
         </div>
         <div
           className={`side-link ${category === 2 ? "active" : ""}`}
           onClick={() => setCategory(2)}
         >
-          <img src={automobiles} alt="" />
+          <span className='category-img'><img src={automobiles} alt="" /></span>
           <p>Automobiles</p>
         </div>
         <div
           className={`side-link ${category === 17 ? "active" : ""}`}
           onClick={() => setCategory(17)}
         >
-          <img src={sports} alt="" />
+          <span className='category-img'><img src={sports} alt="" /></span>
           <p>Sports</p>
         </div>
         <div
           className={`side-link ${category === 24 ? "active" : ""}`}
           onClick={() => setCategory(24)}
         >
-          <img src={entertainment} alt="" />
+          <span className='category-img'><img src={entertainment} alt="" /></span>
           <p>Entertainment</p>
         </div>
         <div
           className={`side-link ${category === 28 ? "active" : ""}`}
           onClick={() => setCategory(28)}
         >
-          <img src={tech} alt="" />
+          <span className='category-img'><img src={tech} alt="" /></span>
           <p>Technology</p>
         </div>
         <div
           className={`side-link ${category === 10 ? "active" : ""}`}
           onClick={() => setCategory(10)}
         >
-          <img src={music} alt="" />
+          <span className='category-img'><img src={music} alt="" /></span>
           <p>Music</p>
         </div>
         <div
           className={`side-link ${category === 22 ? "active" : ""}`}
           onClick={() => setCategory(22)}
         >
-          <img src={blogs} alt="" />
+          <span className='category-img'><img src={blogs} alt="" /></span>
           <p>Blogs</p>
         </div>
         <div
           className={`side-link ${category === 25 ? "active" : ""}`}
           onClick={() => setCategory(25)}
         >
-          <img src={news} alt="" />
+          <span className='category-img'><img src={news} alt="" /></span>
           <p>News</p>
         </div>
         <hr />

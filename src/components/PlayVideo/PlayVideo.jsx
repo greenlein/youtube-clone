@@ -1,6 +1,7 @@
 import "./PlayVideo.css";
 import { useState, useEffect } from "react";
 import { API_KEY, convertValue } from "../../data";
+import DOMPurify from "dompurify";
 import moment from "moment";
 import video1 from "../../assets/video.mp4";
 import like from "../../assets/like.png";
@@ -115,7 +116,7 @@ function PlayVideo() {
       <div className="vid-description">
         <p>
           {apiData
-            ? apiData.snippet.description.slice(0, 250)
+            ? apiData.snippet.description
             : "Description Loading"}
         </p>
         <hr />
@@ -140,7 +141,13 @@ function PlayVideo() {
                     {item.snippet.topLevelComment.snippet.authorDisplayName}{" "}
                     <span>1 day ago</span>
                   </h3>
-                  <p>{item.snippet.topLevelComment.snippet.textDisplay}</p>
+                  <p
+                    dangerouslySetInnerHTML={{
+                      __html: DOMPurify.sanitize(
+                        item.snippet.topLevelComment.snippet.textDisplay,
+                      ),
+                    }}
+                  />
                   <div className="comment-action">
                     <img src={like} alt="" />
                     <span>

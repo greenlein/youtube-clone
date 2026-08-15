@@ -1,0 +1,850 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "OBHohP2XAgy0x9P4ti7ndVrLNTY",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "US",
+  "pageInfo": {
+    "totalResults": 1000000,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "MSJyzpaj5I0w7f3M107w3xt-aTU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8F953MNwqII"
+      },
+      "snippet": {
+        "publishedAt": "2026-08-14T14:15:03Z",
+        "channelId": "UCde0vB0fTwC8AT3sJofFV0w",
+        "title": "The Easiest Way to Build &amp; Host a Website with Claude Code (Full Tutorial)",
+        "description": "Start hosting your Claude website (coupon: MIKEY) https://go.hosting.com/mikey In this video, I show you the easiest way to build ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8F953MNwqII/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8F953MNwqII/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8F953MNwqII/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Mikey No Code",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-08-14T14:15:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "pE8Ysdbtwj2QPweFGtcQYjKY1xY",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UC4SVo0Ue36XCfOyb5Lh1viQ"
+      },
+      "snippet": {
+        "publishedAt": "2019-10-10T14:40:46Z",
+        "channelId": "UC4SVo0Ue36XCfOyb5Lh1viQ",
+        "title": "Bro Code",
+        "description": "Coding bootcamps HATE HIM!",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/AIdro_mPFVsxROj1dOtTWc9iNBwDYV4z42Q8LPokBSewiW9pCSg=s88-c-k-c0xffffffff-no-rj-mo"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/AIdro_mPFVsxROj1dOtTWc9iNBwDYV4z42Q8LPokBSewiW9pCSg=s240-c-k-c0xffffffff-no-rj-mo"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/AIdro_mPFVsxROj1dOtTWc9iNBwDYV4z42Q8LPokBSewiW9pCSg=s800-c-k-c0xffffffff-no-rj-mo"
+          }
+        },
+        "channelTitle": "Bro Code",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-10-10T14:40:46Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Sp_bot8bvYwWuTXNYL3m0VKLXgw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BpOsHF5Oj_I"
+      },
+      "snippet": {
+        "publishedAt": "2026-05-07T19:28:45Z",
+        "channelId": "UCMcoud_ZW7cfxeIugBflSBw",
+        "title": "Vibe Coding for Beginners (Full Course 2026)",
+        "description": "Vibe Coding with Codex - Complete Guide Build a Web App, Desktop App & iOS App with Codex + GPT‑5.5 (No Coding Needed, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BpOsHF5Oj_I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BpOsHF5Oj_I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BpOsHF5Oj_I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Riley Brown",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-05-07T19:28:45Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "twnNXGL6dbEq-jMjSz_2LbhJAGI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cSGI6p-KNkQ"
+      },
+      "snippet": {
+        "publishedAt": "2025-10-23T00:59:25Z",
+        "channelId": "UCOVbwa5XMcZiSeTiJt4fIGQ",
+        "title": "How to Learn to Code in 2026 (Without Wasting Time)",
+        "description": "Learn how to work with me to get into your first coding job: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cSGI6p-KNkQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cSGI6p-KNkQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cSGI6p-KNkQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Iman Musa",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-10-23T00:59:25Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "V6kDA9sQRxC2Y7LW8hO9xJyJCmE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "wRezmI9qIT8"
+      },
+      "snippet": {
+        "publishedAt": "2025-09-03T13:47:09Z",
+        "channelId": "UCoowR_rs4RkUUchoJLk8KXQ",
+        "title": "How to START Coding for beginners (Even If You’re Totally Lost)",
+        "description": "Start Coding Today: The Complete Beginner's Roadmap Do you want to start coding but feel overwhelmed and confused about ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wRezmI9qIT8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wRezmI9qIT8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wRezmI9qIT8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Dig and Debug",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-09-03T13:47:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "xI_GTvcrT42q1_ObApUw2nCg6MU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "zOjov-2OZ0E"
+      },
+      "snippet": {
+        "publishedAt": "2020-04-21T13:45:02Z",
+        "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+        "title": "Introduction to Programming and Computer Science - Full Course",
+        "description": "In this course, you will learn basics of computer programming and computer science. The concepts you learn apply to any and all ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zOjov-2OZ0E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zOjov-2OZ0E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zOjov-2OZ0E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "freeCodeCamp.org",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-04-21T13:45:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wy-cQwxdYgB85rkQkhfT4S-3IPI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NGlX-1jhYJE"
+      },
+      "snippet": {
+        "publishedAt": "2025-07-09T19:17:24Z",
+        "channelId": "UCPk2s5c4R_d-EUUNvFFODoA",
+        "title": "How to Learn to Code",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NGlX-1jhYJE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NGlX-1jhYJE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NGlX-1jhYJE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Gohar Khan",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-07-09T19:17:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qeDExzD5tGZ_oFW17mj0lgOsybg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "HIj8wU_rGIU"
+      },
+      "snippet": {
+        "publishedAt": "2020-02-25T15:43:31Z",
+        "channelId": "UCCktnahuRFYIBtNnKT5IYyg",
+        "title": "How to Start Coding | Programming for Beginners | Learn Coding | Intellipaat",
+        "description": "Intellipaat Python course: https://intellipaat.com/python-for-data-science-training/ Intellipaat Programming courses: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HIj8wU_rGIU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HIj8wU_rGIU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HIj8wU_rGIU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Intellipaat",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-02-25T15:43:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fE7q2srunWO9V47Ooc4VGBiAIiw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Pv3r_BxuttA"
+      },
+      "snippet": {
+        "publishedAt": "2026-05-27T11:01:24Z",
+        "channelId": "UCPhyA52nHlW3L6r-7sDfcyg",
+        "title": "How I’d Learn Coding in 2026 (Without Wasting Years)",
+        "description": "Start learning to code for FREE on Scrimba + get 20% OFF Pro if you upgrade later: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Pv3r_BxuttA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Pv3r_BxuttA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Pv3r_BxuttA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Developete",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-05-27T11:01:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "I_rlcUmBoHxZk5fXbvvCvJi1MSs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_uQrJ0TkZlc"
+      },
+      "snippet": {
+        "publishedAt": "2019-02-18T15:00:08Z",
+        "channelId": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+        "title": "Python Full Course for Beginners",
+        "description": "Learn Python for AI, machine learning, and web development with this beginner-friendly course! Get 6 months of PyCharm ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_uQrJ0TkZlc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_uQrJ0TkZlc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_uQrJ0TkZlc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Programming with Mosh",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-02-18T15:00:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "jctXvOMUNwx8eshGP7bgX4uolsw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kqtD5dpn9C8"
+      },
+      "snippet": {
+        "publishedAt": "2020-09-16T13:00:20Z",
+        "channelId": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+        "title": "Python for Beginners - Learn Coding with Python in 1 Hour",
+        "description": "Learn Python basics in just 1 hour! Perfect for beginners interested in AI and coding. ⚡ Plus, get 6 months of PyCharm FREE with ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kqtD5dpn9C8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kqtD5dpn9C8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kqtD5dpn9C8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Programming with Mosh",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-09-16T13:00:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "tZjYqR_h7XObQsHtq3vG5el0IAA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "qkFYqY3vr84"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-16T03:46:33Z",
+        "channelId": "UCY6VZZo9MZCyIIozTs0khNA",
+        "title": "coding is easy, actually",
+        "description": "Improve your career using my code “EASY” for 30% off on all TripleTen's programs! Sign up for a FREE TripleTen career ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qkFYqY3vr84/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qkFYqY3vr84/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qkFYqY3vr84/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "easy, actually",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-16T03:46:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_dtdjamf6clhAzcwkgbDMCzOCYE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "f5QxYxY1ync"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-03T14:42:31Z",
+        "channelId": "UCsguRUxh-0DiryIdPPWFeCQ",
+        "title": "How to Learn Coding Fast and Start Making Cool Stuff (No-BS Guide)",
+        "description": "How to Learn Coding Fast and Start Making Cool Stuff (No-BS Guide) Want to learn coding but don't know where to start?",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/f5QxYxY1ync/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/f5QxYxY1ync/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/f5QxYxY1ync/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Rise Above Reality",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-03T14:42:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "cOt9R63NGyq0NxageoBCcJWUu2s",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WR1ydijTx5E"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-13T18:52:08Z",
+        "channelId": "UCQTmoQ_S26PlmDoXujZpbYQ",
+        "title": "How I Learned to Code in 4 Months &amp; Got a Job! (No CS Degree, No Bootcamp)",
+        "description": "I went from being a college dropout with zero technical skills to landing a software developer job in 4 months. This video is about ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WR1ydijTx5E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WR1ydijTx5E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WR1ydijTx5E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Tim Kim",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-13T18:52:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5r0q3Gb7b5ICRdzS-H3PLRo8IY0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "q-_ezD9Swz4"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-21T17:00:35Z",
+        "channelId": "UCxVPH8W2ayMey1-b0SY8rBQ",
+        "title": "Learn To Code Like a GENIUS and Not Waste Time",
+        "description": "To try everything Brilliant has to offer—free—for a full 30 days, visit https://brilliant.org/TheCodingSloth/ . The first 200 of you will ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/q-_ezD9Swz4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/q-_ezD9Swz4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/q-_ezD9Swz4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Coding Sloth",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-21T17:00:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "3TCrqTF6ohbozML2QA0H68quCdQ",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UCxVPH8W2ayMey1-b0SY8rBQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-01T20:13:18Z",
+        "channelId": "UCxVPH8W2ayMey1-b0SY8rBQ",
+        "title": "The Coding Sloth",
+        "description": "Videos about software or something like that.",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/vyiVx6-37LFcgsj8vB9ml-LK3PoiedhdVnkSFhPmp9V6EZqLketITjJ8mm2-0WCzjoQc0TOgLw=s88-c-k-c0xffffffff-no-rj-mo"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/vyiVx6-37LFcgsj8vB9ml-LK3PoiedhdVnkSFhPmp9V6EZqLketITjJ8mm2-0WCzjoQc0TOgLw=s240-c-k-c0xffffffff-no-rj-mo"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/vyiVx6-37LFcgsj8vB9ml-LK3PoiedhdVnkSFhPmp9V6EZqLketITjJ8mm2-0WCzjoQc0TOgLw=s800-c-k-c0xffffffff-no-rj-mo"
+          }
+        },
+        "channelTitle": "The Coding Sloth",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-01T20:13:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "TOEJM2MZpj9fvusRvNNWqMF42zM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "oshQg1uSRvg"
+      },
+      "snippet": {
+        "publishedAt": "2026-03-10T14:07:49Z",
+        "channelId": "UC2UXDak6o7rBm23k3Vv5dww",
+        "title": "How To Learn To Code In 2026",
+        "description": "Try Warp for free today → https://oz.dev/tinayt In this video I explain how to learn to code in 2026. Free 28-Day AI Sprint Roadmap ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/oshQg1uSRvg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/oshQg1uSRvg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/oshQg1uSRvg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Tina Huang",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-03-10T14:07:49Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "kmtEYuYze5edi8Iu3YKw49vAuDI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "91B_v-wOaws"
+      },
+      "snippet": {
+        "publishedAt": "2026-01-22T15:48:48Z",
+        "channelId": "UCxVPH8W2ayMey1-b0SY8rBQ",
+        "title": "I Have Spent 500+ Hours Programming With AI. This Is what I learned",
+        "description": "Try out Junie: https://jb.gg/JunieAI-coding AI is alright if you have a brain. AI can give good sloppy. This video is sponsored by ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/91B_v-wOaws/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/91B_v-wOaws/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/91B_v-wOaws/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Coding Sloth",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-01-22T15:48:48Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "W9rb055TpBrrOpiEtWqH28DSrYw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "hRUJ41rdp4M"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-18T04:14:29Z",
+        "channelId": "UClLXKYEEM8OBBx85DOa6-cg",
+        "title": "1 Year of Coding #programming #comedy #coding",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hRUJ41rdp4M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hRUJ41rdp4M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hRUJ41rdp4M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Devslopes",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-18T04:14:29Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "mnYhlCRAzViyXr3k98z6Ir4YGRQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "N7ZmPYaXoic"
+      },
+      "snippet": {
+        "publishedAt": "2015-11-16T01:54:05Z",
+        "channelId": "UC2r05YffIyAru43GMoxZBzw",
+        "title": "What is Coding?",
+        "description": "This video is an overview of computer programming (coding) at the most basic level. See where it came from and how it works.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/N7ZmPYaXoic/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/N7ZmPYaXoic/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/N7ZmPYaXoic/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "TeXplaiNIT",
+        "liveBroadcastContent": "none",
+        "publishTime": "2015-11-16T01:54:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "uT8DzbjVVRKTRMHMP62o0EJ1jew",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "wzgJfBN_8Sk"
+      },
+      "snippet": {
+        "publishedAt": "2026-07-30T21:00:34Z",
+        "channelId": "UC7zZ2-Q_oxbUaoMVL0z51wg",
+        "title": "How To Learn To Code In 2026",
+        "description": "In this video, I break down exactly how I would learn to code in 2026 Start learning Cyber Security for FREE with TryHackMe: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wzgJfBN_8Sk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wzgJfBN_8Sk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wzgJfBN_8Sk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Sajjaad Khader",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-07-30T21:00:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-Gapj0tcaOqwjXyLVVEWfd-FFV4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "bJzb-RuUcMU"
+      },
+      "snippet": {
+        "publishedAt": "2018-11-04T01:12:12Z",
+        "channelId": "UCfuSelBtnyCACv0KjG2P1-A",
+        "title": "How To Learn Programming for BEGINNERS! (2022/2023)",
+        "description": "This simple tutorial will teach you how you can learn computer programming and teach yourself code. Learning code is not that ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bJzb-RuUcMU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bJzb-RuUcMU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bJzb-RuUcMU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CroatCode",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-11-04T01:12:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "yruHXoC8DZ1YKJe8GbDEVTv_0bE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "j-3eArinB7E"
+      },
+      "snippet": {
+        "publishedAt": "2020-01-19T15:34:08Z",
+        "channelId": "UCq2Sm0h2cDmqKtlaonWNUpQ",
+        "title": "Coding for Kids |What is coding for kids? | Coding for beginners | Types of Coding |Coding Languages",
+        "description": "Pop over to https://learningmole.com/pricing/ to subscribe and access over 350 fabulous educational videos AND we are offering ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/j-3eArinB7E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/j-3eArinB7E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/j-3eArinB7E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "LearningMole",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-01-19T15:34:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "VvDY7UFEc2NA4F4KLZ3LGEgEPzg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "jTJvyKZDFsY"
+      },
+      "snippet": {
+        "publishedAt": "2024-05-23T13:00:41Z",
+        "channelId": "UCxVPH8W2ayMey1-b0SY8rBQ",
+        "title": "20 Programming Projects That Will Make You A God At Coding",
+        "description": "If you wanna build 10x developer level projects check out CodeCrafters https://app.codecrafters.io/join?via=TheCodingSloth This ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jTJvyKZDFsY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jTJvyKZDFsY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jTJvyKZDFsY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Coding Sloth",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-05-23T13:00:41Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "J3XLPdG1X3P9h5UdJW6L9y0cmMg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "k7LSFYyBZUs"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-16T17:29:40Z",
+        "channelId": "UClLXKYEEM8OBBx85DOa6-cg",
+        "title": "Coding for 1 Month Versus 1 Year #shorts #coding",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/k7LSFYyBZUs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/k7LSFYyBZUs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/k7LSFYyBZUs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Devslopes",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-16T17:29:40Z"
+      }
+    }
+  ]
+}

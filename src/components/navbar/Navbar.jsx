@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate, useSearchParams } from "react-router-dom";
 import menuIcon from "../../assets/menu.png";
 import logo from "../../assets/logo.png";
 import searchIcon from "../../assets/search.png";
@@ -10,6 +10,8 @@ import notificationIcon from "../../assets/notification.png";
 import profileIcon from "../../assets/jack.png";
 
 function Navbar({ setSidebar }) {
+  const navigate = useNavigate();
+
   return (
     <nav className="flex-div">
       <div className="nav-left flex-div">
@@ -25,7 +27,17 @@ function Navbar({ setSidebar }) {
       </div>
       <div className="nav-middle flex-div">
         <div className="search-box flex-div">
-          <input type="text" placeholder="search" />
+          <input
+            type="text"
+            placeholder="search"
+            onKeyDown={(e) =>
+              e.key === "Enter" &&
+              navigate({
+                pathname: `/results`,
+                search: `?search_query=${e.target.value}`,
+              })
+            }
+          />
           <img src={searchIcon} alt="" />
         </div>
       </div>
